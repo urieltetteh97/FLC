@@ -33,7 +33,6 @@ const FLMusic = () => {
                         </div>
                     </div>
                     
-                    </div>
                     <div className="group cursor-pointer">
                         <div className='flex items-center px-8 py-5 bg-white/10 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-300 hover:bg-white/20 hover:border-white/20 hover:scale-105 transform hover:shadow-xl hover:shadow-green-500/20'>
                         <svg className='w-10 h-10 text-white mr-4' viewBox='0 0 24 24' fill='currentColor'>
@@ -56,6 +55,7 @@ const FLMusic = () => {
                     </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
   )
