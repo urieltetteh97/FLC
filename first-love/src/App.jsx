@@ -6,6 +6,7 @@ import Whoweare from './components/Whoweare'
 import Founder from './components/founder'
 import Firstlovechannel from './components/Firstlovechannel'
 import Dagsermons from './components/Dagsermons'
+import FLMusic from './components/FLMusic'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Founder />
       <Firstlovechannel />
       <Dagsermons />
+      <FLMusic />
     </>
   )
 }

@@ -21,8 +21,11 @@ const FLMusic = () => {
                 </div>
                 <p className='text-2xl md:text-3xl text-white/90 leading-relaxed font-light max-w-xl'>
                 Experience worship, like never before. Stream our music on any of the platforms below.</p>
+                <div className='flex flex-col sm:flex-row items-center justify-center md:justify-start gap-6 pt-8'>
+                    <div className='group crsor-pointer'></div>
             </div>
         </div>
+    </div>
     </div>
 </section>
   )
