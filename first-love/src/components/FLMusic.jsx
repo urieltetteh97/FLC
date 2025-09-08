@@ -1,6 +1,6 @@
 import React from 'react'
 import flmBackground from '../assets/FLM-C91fTY8c.webp'
-import flmLogo from '../assets/FLM-C91fTY8c.webp'
+import flmLogo from '../assets/FL_white-pCyjcRzn.webp'
 
 const FLMusic = () => {
   return (
