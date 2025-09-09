@@ -55,8 +55,20 @@ const FLMusic = () => {
                     </div>
             </div>
         </div>
+        <div className='relative animate-on-scroll transition-all duration-1000 delay-300 opacity-100 translate-y-0'>
+            <div className='relative max-w-[600px] lg:max-w-[700px] xl:max-w-[800px] mx-auto md:-mr-32 lg:-mr-48 xl:-mr-64'>
+                <div className="relative group">
+                    <img src={flmBackground} alt="" className='w-full h-auto rounded-3xl transform group-hover:scale-105 transition-transform duration-700 drop-shadow-2xl' />
+                    <div className='absolute inset-0 rounded-3xl bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
+                </div>
+                <div className='absolute -inset-8 bg-blue-600/20 blur-2xl rounded-full -z-10 animate-pulse'></div>
+                <div className='absolute -inset-16 bg-purple-600/20 blur-3xl rounded-full -z-10'></div>
+            </div>
+        </div>
     </div>
     </div>
+    <div className='absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-900/20 via-purple-900/10 to-transparent blur-3xl'></div>
+    <div className='absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black via-black/50 to-transparent'></div>
 </section>
   )
 }

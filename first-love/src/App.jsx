@@ -7,6 +7,7 @@ import Founder from './components/founder'
 import Firstlovechannel from './components/Firstlovechannel'
 import Dagsermons from './components/Dagsermons'
 import FLMusic from './components/FLMusic'
+import Salvation from './components/Salvation'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Firstlovechannel />
       <Dagsermons />
       <FLMusic />
+      <Salvation />
     </>
   )
 }
